@@ -8,6 +8,5 @@
   "resources": ["plugin.js"],
   "contentScripts": {
     "all": ["plugin.js"]
-  },
-  "icon": "icon.png"
+  }
 }
