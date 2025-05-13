@@ -1,12 +1,17 @@
 {
+  "version": "0.0.1",
   "manifestVersion": "0.1.0",
-  "id": "keeweb-entry-transfer",
-  "name": "KeeWeb Entry Transfer",
-  "description": "Compares entries between open KeeWeb databases and copies missing ones, with optional prefixing.",
-  "version": "1.1.0",
-  "author": "Your Name",
-  "resources": ["plugin.js"],
-  "contentScripts": {
-    "all": ["plugin.js"]
-  }
+  "name": "keeweb-entry-transfer",
+  "description": "Copy non-existing passwords from one database to another",
+  "author": {
+    "name": "Lucas Pekel",
+    "email": "lucas.pekel@gmail.com",
+    "url": "https://lucaspekel.nl"
+  },
+  "resources": {
+    "js": true
+  },
+  "license": "MIT",
+  "url": "https://triasto.github.io/keeweb-entry-transfer",
+  "publicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3X4pZem/F4Bxq6KKIhSht9X26ehc9IyPS9fOThT2AcZxiSEcYm5PeCK/rj3FvDr94txlcFn2hNBxaf1AR28f5mVG3DIF93SU2mZ4pMYJLx4c4wcneF0ZQuwTolW+MdSsDXTPvgCRTtwDfp+j3nA2mAaTHmFZvh6JEhTvkyNdUJiC0tnr3K9W6806iCxIvs++kyHHZBWJfNgk/3c817Rux4sOyFoyTgLQkuiaGqmmW+4hWTPEIHssyZzXk21APNavUUfFtcC+gLDTjY7PjMHBxMcH9qlDJm48eQENPLQedZDz4fseMIwAF6pvaBlOc1U7OYclogHjcYFagcvQ47X4PQIDAQAB"
 }
