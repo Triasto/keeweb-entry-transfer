@@ -1,5 +1,5 @@
 {
-  "manifestVersion": "1.0",
+  "manifestVersion": "1",
   "id": "keeweb-entry-transfer",
   "name": "KeeWeb Entry Transfer",
   "description": "Compares entries between open KeeWeb databases and copies missing ones, with optional prefixing.",
