@@ -1,0 +1,13 @@
+{
+  "manifestVersion": "1.0",
+  "id": "keeweb-entry-transfer",
+  "name": "KeeWeb Entry Transfer",
+  "description": "Compares entries between open KeeWeb databases and copies missing ones, with optional prefixing.",
+  "version": "1.1.0",
+  "author": "Your Name",
+  "resources": ["plugin.js"],
+  "contentScripts": {
+    "all": ["plugin.js"]
+  },
+  "icon": "icon.png"
+}
